@@ -1,19 +1,17 @@
 {
   "name": "usedirectory",
-  "private": true,
+  "private": false,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build",
-    "lint": "eslint src --ext js,jsx --report-unused-disable-directives --max-warnings 0",
-    "preview": "vite preview"
+    "build": "vite build"
   },
   "dependencies": {
     "axios": "^1.6.3",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "react-router-dom": "^5.2.0"
+    "react-router-dom": "^6.21.1"
   },
   "devDependencies": {
     "@types/react": "^18.0.28",
